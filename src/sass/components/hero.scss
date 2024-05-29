@@ -5,6 +5,8 @@ section{
     padding: 150px 0;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 0 160px;
 }
 .hero__title{
     width: 790.67px;
@@ -42,4 +44,40 @@ section{
             background-color: #5E3BEE;
         }
     }
+}
+.hero__image{
+    img{
+        border-radius: 20px;
+    }
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    .skill{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .skill__icon{
+            font-size: 40px;
+            transition: .2s ease-in-out;
+            &:hover{
+                margin-top: -20px;
+                transition: .2s ease-in-out;
+            }
+        }
+
+    }
+}
+.dark .skills__title{
+    color: white;
+}
+.skills__title{
+    color: rgb(40, 41, 56);
+    font-size: 21.33px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 50px;
 }
